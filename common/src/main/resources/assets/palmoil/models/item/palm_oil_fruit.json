@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "palmoil:item/palm_oil_fruit"
+  }
+}

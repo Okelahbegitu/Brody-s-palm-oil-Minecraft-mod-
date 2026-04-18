@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "palmoil:block/palm_oil_sapling"
+  }
+}

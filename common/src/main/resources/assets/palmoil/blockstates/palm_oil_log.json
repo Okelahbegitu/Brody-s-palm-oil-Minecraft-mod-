@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "palmoil:block/palm_oil_log"
+    },
+    "axis=x": {
+      "model": "palmoil:block/palm_oil_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "palmoil:block/palm_oil_log",
+      "x": 90
+    }
+  }
+}

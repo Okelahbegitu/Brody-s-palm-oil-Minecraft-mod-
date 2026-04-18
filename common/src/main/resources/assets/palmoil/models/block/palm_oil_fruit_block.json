@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "palmoil:block/palm_oil_fruit_block"
+  }
+}

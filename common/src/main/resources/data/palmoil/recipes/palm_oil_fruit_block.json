@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "palmoil:palm_oil_fruit"
+    }
+  },
+  "result": {
+    "item": "palmoil:palm_oil_fruit_block",
+    "count": 1
+  }
+}
