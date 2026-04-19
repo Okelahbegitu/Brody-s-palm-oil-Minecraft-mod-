@@ -1,5 +1,5 @@
 {
   "multipart": [
-    { "apply": { "model": "palmoil:block/palm_oil_leaves" } }
+    { "apply": { "model": "palmoil:block/palm_oil_stem_leaves" } }
   ]
 }

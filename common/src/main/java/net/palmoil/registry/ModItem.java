@@ -20,6 +20,15 @@ public class ModItem {
                     () -> new BlockItem(
                             ModBlock.PALM_OIL_LOG.get(),
                             new Item.Properties()
+                                    .arch$tab(ModCreativeTabs.PALMOIL_TAB)
+                    ));
+
+    public static final RegistrySupplier<Item> PALM_OIL_PLANKS =
+            ITEMS.register("palm_oil_planks",
+                    () -> new BlockItem(
+                            ModBlock.PALM_OIL_PLANKS.get(),
+                            new Item.Properties()
+                                    .arch$tab(ModCreativeTabs.PALMOIL_TAB)
                     ));
 
     public static final RegistrySupplier<Item> PALM_OIL_LEAVES =
@@ -27,6 +36,7 @@ public class ModItem {
                     () -> new BlockItem(
                             ModBlock.PALM_OIL_LEAVES.get(),
                             new Item.Properties()
+                                    .arch$tab(ModCreativeTabs.PALMOIL_TAB)
                     ));
 
     public static final RegistrySupplier<Item> PALM_OIL_STEM_LEAVES =
@@ -34,6 +44,7 @@ public class ModItem {
                     () -> new BlockItem(
                             ModBlock.PALM_OIL_STEM_LEAVES.get(),
                             new Item.Properties()
+                                    .arch$tab(ModCreativeTabs.PALMOIL_TAB)
                     ));
 
     public static final RegistrySupplier<Item> PALM_OIL_FRUIT_BLOCK =
@@ -41,6 +52,7 @@ public class ModItem {
                     () -> new BlockItem(
                             ModBlock.PALM_OIL_FRUITS_BLOCK.get(),
                             new Item.Properties()
+                                    .arch$tab(ModCreativeTabs.PALMOIL_TAB)
                     ));
 
     public static final RegistrySupplier<Item> PALM_OIL_SAPLING =
@@ -48,20 +60,21 @@ public class ModItem {
                     () -> new BlockItem(
                             ModBlock.PALM_OIL_SAPLING.get(),
                             new Item.Properties()
+                                    .arch$tab(ModCreativeTabs.PALMOIL_TAB)
                     ));
     public static final RegistrySupplier<Item> PALM_OIL_FRUIT =
             ITEMS.register("palm_oil_fruit", () ->
                     new Item(new Item.Properties()
                             .stacksTo(64)
                             .rarity(Rarity.UNCOMMON)
-
+                            .arch$tab(ModCreativeTabs.PALMOIL_TAB)
                     ));
     public static final RegistrySupplier<Item> PALM_OIL =
             ITEMS.register("palm_oil", () ->
                     new Item(new Item.Properties()
                             .stacksTo(16)
                             .rarity(Rarity.UNCOMMON)
-
+                            .arch$tab(ModCreativeTabs.PALMOIL_TAB)
                     ));
 
 

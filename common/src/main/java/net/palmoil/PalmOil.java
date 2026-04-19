@@ -5,6 +5,7 @@ import dev.architectury.registry.client.rendering.RenderTypeRegistry;
 import dev.architectury.registry.registries.RegistrarManager;
 import net.minecraft.client.renderer.RenderType;
 import net.palmoil.registry.ModBlock;
+import net.palmoil.registry.ModCreativeTabs;
 import net.palmoil.registry.ModFuel;
 import net.palmoil.registry.ModItem;
 
@@ -19,6 +20,7 @@ public class PalmOil {
         ModBlock.register();
         ModItem.register();
         ModFuel.register();
+        ModCreativeTabs.register();
         //System.out.println(ExampleExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }
 }

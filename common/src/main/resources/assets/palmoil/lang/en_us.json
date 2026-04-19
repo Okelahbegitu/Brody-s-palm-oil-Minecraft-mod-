@@ -2,6 +2,11 @@
   "block.palmoil.palm_oil_log": "Palm Oil Log",
   "block.palmoil.palm_oil_leaves": "Palm Oil Leaves",
   "block.palmoil.palm_oil_fruit_block": "Palm Oil Fruit Block",
+  "block.palmoil.palm_oil_stem_leaves": "Palm Oil Stem Leaves",
+  "block.palmoil.palm_oil_planks": "Palm Oil Stem Planks",
+
   "item.palmoil.palm_oil_fruit": "Palm Oil Fruit",
-  "item.palmoil.palm_oil": "Palm Oil"
+  "item.palmoil.palm_oil": "Palm Oil",
+
+  "itemGroup.palmoil.palmoil_tab": "Palm Oil"
 }

@@ -3,9 +3,13 @@ package net.palmoil.registry;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.palmoil.PalmOil;
 import net.palmoil.registry.block.*;
+
+import static net.palmoil.registry.ModItem.ITEMS;
 
 public class ModBlock {
 
@@ -14,6 +18,9 @@ public class ModBlock {
 
     public static final RegistrySupplier<Block> PALM_OIL_LOG =
             BLOCKS.register("palm_oil_log", PalmOilLog::new);
+
+    public static final RegistrySupplier<Block> PALM_OIL_PLANKS =
+            BLOCKS.register("palm_oil_planks", PalmOilPlanks::new);
 
     public static final RegistrySupplier<Block> PALM_OIL_LEAVES =
             BLOCKS.register("palm_oil_leaves", PalmOilLeaves::new);

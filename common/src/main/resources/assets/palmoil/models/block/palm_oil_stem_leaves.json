@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "palmoil:block/palm_oil_stem_leaves"
+  }
+}
